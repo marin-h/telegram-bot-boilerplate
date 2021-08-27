@@ -1,5 +1,3 @@
 flask==1.1.2
 gunicorn==20.0.4
 python-telegram-bot==13.3
-telegram-menu==0.3.4
-gsheets==0.5.1
