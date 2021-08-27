@@ -14,7 +14,7 @@ gcloud beta run deploy letras-bot --source . --set-env-vars TOKEN=${TOKEN} --all
 echo "Set Telegram webhook: curl https://api.telegram.org/bot\$TOKEN/setWebHook?url=$WEBHOOK"
 curl -s "https://api.telegram.org/bot$TOKEN/setWebHook?url=$WEBHOOK" | jq .
 
-echo "Telegram Webhook Info: curl https://api.telegram.org/bot\${TOKEN}/getWebhookInfo"
+echo "Telegram Webhook Info: curl https://api.telegram.org/bot\$TOKEN/getWebhookInfo"
 echo
 curl "https://api.telegram.org/bot${TOKEN}/getWebhookInfo" | jq .
 
