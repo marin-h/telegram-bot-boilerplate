@@ -1,6 +1,6 @@
-# Create Telegram Bot app
+# Telegram Bot App Boilerplate
 
-Boilerplate scripts and Dockerfile to:
+Boilerplate scripts, Dockerfile, and API to:
 
 * Deploy on Google Cloud Run - using free tier
 * Amazingly easy to deploy staging environment, locally with ngrok
