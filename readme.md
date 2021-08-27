@@ -16,9 +16,9 @@ Boilerplate scripts and Dockerfile to:
 
 ### Configuration
 
-##### Telegram BOT authentication
+#### .env file:
 
-Add this vars to a .env file:
+##### Telegram BOT authentication
 
 ```
 TELEGRAM_USERNAME="username"
@@ -26,13 +26,17 @@ TOKEN=token_prod
 TEST_TOKEN=token_staging
 ```
 
-Deploy configuration
+##### Deploy configuration
+
+Production
 
 ```
-# production
 PROJECT_NAME=my-gcr-project 
+```
 
-# staging 
+Staging
+
+``` 
 CONTAINER_NAME=my-telegram-bot
 LOG_DIR=logs
 PORT=8888
@@ -45,7 +49,7 @@ PORT=8888
 Deploy on Google Cloud Run (runs on free tier)
 
 ```bash
-$ ./infra/deploy-prod.sh
+$ ./deploy-prod.sh
 ```
 
 ##### Staging environment
@@ -55,5 +59,5 @@ Run local container and connect it to a telegram bot.
 
 ```bash
 
-./infra/deploy-staging.sh
+./deploy-staging.sh
 ```
