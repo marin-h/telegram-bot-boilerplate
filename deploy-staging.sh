@@ -1,4 +1,12 @@
 #!/bin/bash
+term() {
+    echo "Stopping container. Cleaning up..."
+    docker stop $CONTAINER_NAME > /dev/null 2>&1
+    echo bye!
+}
+
+trap term SIGINT
+
 echo ""
 echo "loading env vars"
 export $(grep -v '^#' .env | xargs -0)
@@ -18,7 +26,8 @@ touch ${LOG_DIR}/ngrok.log
 
 echo ""
 echo "launching ngrok"
-ngrok http $PORT -host-header=test.app -log=stdout >> logs/ngrok.log
+ngrok http $PORT -host-header=test.app -log=stdout >> logs/ngrok.log &
+pid=$!
 
 sleep 2
 WEBHOOK=$(curl -s "localhost:4040/api/tunnels" | jq -r '.tunnels[] | select(.name=="command_line").public_url')
@@ -38,3 +47,7 @@ curl -s "https://api.telegram.org/bot$TEST_TOKEN/getWebhookInfo" | jq .
 echo ""
 echo "Browsing ngrok status page"
 python -m webbrowser -t "http://localhost:4040"
+
+while ps -p $pid > /dev/null; do
+  wait $pid
+done
