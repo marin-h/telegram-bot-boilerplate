@@ -1,6 +1,6 @@
 #!/bin/bash
 
- echo ""
+echo ""
 echo "loading env vars"
 export $(grep -v '^#' .env | xargs -0)
 
