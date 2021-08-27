@@ -7,11 +7,14 @@ Boilerplate scripts, Dockerfile, and API to:
 
 ### Requirements
 
+* google-cloud-sdk
+
+For staging env:
+
 * docker
 * python 3.7
 * pip
-* google-cloud-sdk
-* ngrok (optional, for staging only)
+* ngrok
 
 
 ### Configuration
@@ -49,7 +52,7 @@ PORT=8888
 Deploy on Google Cloud Run (runs on free tier)
 
 ```bash
-$ ./deploy-prod.sh
+./deploy-prod.sh
 ```
 
 ##### Staging environment
