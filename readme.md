@@ -26,6 +26,18 @@ TOKEN=token_prod
 TEST_TOKEN=token_staging
 ```
 
+Deploy configuration
+
+```
+# production
+PROJECT_NAME=my-gcr-project 
+
+# staging 
+CONTAINER_NAME=my-telegram-bot
+LOG_DIR=logs
+PORT=8888
+```
+
 ### Deploy
 
 ##### Production environment
