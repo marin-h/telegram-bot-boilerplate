@@ -1,4 +1,4 @@
-flask==1.1.2
+flask==2.1.0
 gunicorn==20.0.4
 python-telegram-bot==13.3
 telegram-menu==0.3.4

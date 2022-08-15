@@ -15,7 +15,7 @@ docker build -t mate-bot .
 
 echo ""
 echo "running container"
-docker run --env-file=".secrets" -e "TOKEN=${TEST_TOKEN}" -e "BOT_ENV=staging" -e "PORT=80" -e "CONFIG_FOLDER_ID=${STAGING_CONFIG_FOLDER_ID}" -e GOOGLE_SERVICE_ACCOUNT_CREDENTIALS="./staging-credentials.json" -p $PORT:80 mate-bot &
+docker run --env-file=".secrets" -e "TOKEN=${TEST_TOKEN}" -e "BOT_ENV=staging" -e "PORT=80" -e "CONFIG_FOLDER_ID=${STAGING_CONFIG_FOLDER_ID}" -e GOOGLE_SERVICE_ACCOUNT_CREDENTIALS=${STAGING_GOOGLE_CREDENTIALS} -p $PORT:80 mate-bot &
 
 sleep 2
 
@@ -23,11 +23,15 @@ echo ""
 echo "launching ngrok"
 mkdir -p logs
 touch logs/ngrok.log
-ngrok http 8888 -host-header=test.app -log=stdout >> logs/ngrok.log &
+ngrok http 8888 --host-header=test.8888 --log=stdout >> logs/ngrok.log &
 
-sleep 2
-
-WEBHOOK=$(curl -s "localhost:4040/api/tunnels" | jq -r '.tunnels[] | select(.name=="command_line").public_url')
+echo "waiting for ngrok api"
+while [ -z "$WEBHOOK" ]
+do
+    echo "webhook not ready, retrying..."
+    sleep 2
+    WEBHOOK=$(curl -s "localhost:4040/api/tunnels" -H "Content-type: application/json" | jq -r '.tunnels[] | select(.name=="command_line").public_url')
+done
 
 echo ""
 echo "Ngrok is at $WEBHOOK"

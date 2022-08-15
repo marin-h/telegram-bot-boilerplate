@@ -11,7 +11,7 @@ from src import store, builder
 from datetime import datetime
 
 FILE_PATH = os.path.abspath(os.environ['APP_CONFIG_PATH'])
-ADMIN_USERS = os.environ('ADMIN_USERS').split(',')
+ADMIN_USERS = os.environ['ADMIN_USERS'].split(',')
 admin_users = [int(n) for n in ADMIN_USERS] if len(ADMIN_USERS) else []
 
 app = Flask(__name__)
@@ -75,9 +75,12 @@ dispatcher.add_handler(MessageHandler(Filters.caption(update=['/cargar']), uploa
 dispatcher.add_handler(CallbackQueryHandler(builder.main_menu))
 dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, start))
 
-print("init: load latest backup")
-data = json.loads(store.load_backup())
-if data:
-    print("init: got data", data)
-    store.do_config(json.dumps(store.process_slots(data)))
-    print("init: config finished")
+load_backup = False
+
+if load_backup:
+    print("init: load latest backup")
+    data = json.loads(store.load_backup())
+    if data:
+        print("init: got data", data)
+        store.do_config(json.dumps(store.process_slots(data)))
+        print("init: config finished")

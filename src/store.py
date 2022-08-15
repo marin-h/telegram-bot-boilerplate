@@ -11,7 +11,6 @@ import uuid
 FILE_PATH = os.path.abspath(os.environ['APP_CONFIG_PATH'])
 TIMEZONE = pytz.timezone('America/Argentina/Buenos_Aires')
 
-
 def save_backup(file_path):
     filename = 'app_config_{}.json'.format(datetime.now(TIMEZONE).isoformat())
     print("will save backup {}".format(filename))
@@ -34,32 +33,6 @@ def get_slots():
     f.close()
     print("loaded slots", slots)
     return slots
-
-# def normalize_slots():
-#     with open(FILE_PATH, 'rb') as f:
-#         denormalized_data = pickle.load(f)
-
-#     parent_slot = denormalized_data.pop('start')
-
-#     normalized_tree = {
-#         'name': parent_slot['children'][0]['id'],
-#         'text': parent_slot['text'],
-#         'children': normalize_children(parent_slot['children'], denormalized_data)
-#     }
-#     return normalized_tree
-
-# def normalize_children(children, denormalized_data):
-#     normalized_children = []
-#     for item in children:
-#         child = {
-#             'name': item['text'],
-#             'text': denormalized_data[item['id']]['text'],
-#         }
-#         if len(denormalized_data[item['id']]['children']):
-#             child['children'] = normalize_children(
-#                 denormalized_data[item['id']]['children'], denormalized_data)
-#         normalized_children.append(child)
-#     return normalized_children
 
 def process_slots(normalized_data):
     denormalized_tree = {}
@@ -84,11 +57,3 @@ def map_slot_options(parent_id, children, denormalized_tree):
             'slot_options': map_slot_options(id, item['children'], denormalized_tree) if 'children' in item and len(item['children']) else []
         }
     return slot_options
-
-# if __name__ == "__main__":
-#     with open("./lang/config_front.json", 'r') as f:
-#         normalized_data = json.load(f)
-#     config = process_slots(normalized_data)
-#     with open("./lang/config_front_processed.json", 'w') as f:
-#         f.write(json.dumps(config))
-#     f.close()

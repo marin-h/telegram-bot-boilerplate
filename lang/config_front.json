@@ -1,6 +1,6 @@
 {
     "name": "start",
-    "text": "¡Hola! Soy mateUBA_bot, el bot del Departamento de mate de la UBA. ¿En qué puedo ayudarte? \nIngresá uno de las siguientes opciones:",
+    "text": "¡Hola! Soy UNLA_Mate_bot, el bot del Departamento de mate de la UBA. ¿En qué puedo ayudarte? \nIngresá uno de las siguientes opciones:",
     "children": [
         {
             "name": "Inscripciones",
@@ -138,13 +138,13 @@
                 },
                 {
                     "name": "Quiero subscribirme a la lista de email.",
-                    "text": "Si querés sumarte a las listas de correo del Departamento, solicitalo a <a href=\"mailto:mateuba@gmail.com\">mateuba@gmail.com</a>.\n"
+                    "text": "Si querés sumarte a las listas de correo del Departamento, solicitalo a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>.\n"
                 }
             ]
         },
         {
             "name": "Otros temas",
-            "text": "Si no pudiste resolver tu consulta, escribí a <a href=\"mailto:mateuba@gmail.com\">mateuba@gmail.com</a>."
+            "text": "Si no pudiste resolver tu consulta, escribí a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>."
         }
     ]
 }
