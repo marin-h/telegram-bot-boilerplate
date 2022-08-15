@@ -23,7 +23,6 @@ def start(update, context):
         reply_markup=builder.main_slot_keyboard(menu['slot_options'], False))
 
 def restore(update, context):
-    # validate user
     if update.message.chat.id not in admin_users:
         raise DispatcherHandlerStop
 
@@ -32,11 +31,7 @@ def restore(update, context):
     update.message.reply_text("Configuración actualizada!")
 
 def upload(update, context):
-    # validate user
-    # 206586116 -> marin
-    # 648041635 -> male    
-    # 368488484 -> mariano
-    if update.message.chat.id not in [206586116, 648041635, 368488484]:
+    if update.message.chat.id not in admin_users:
         print('upload not allowed for user', update)
         raise DispatcherHandlerStop
 
@@ -52,8 +47,8 @@ def upload(update, context):
     # setup
     store.do_config(json.dumps(store.process_slots(data)))
 
-    print('uploading decoded data', data)
     # upload backup config file to drive
+    print('uploading decoded data', data)
     uploaded = store.save_backup(file_id)
     update.message.reply_text(
         "Configuración actualizada! Archivo de backup: {}".format(json.dumps(uploaded)))
