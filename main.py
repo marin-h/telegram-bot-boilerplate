@@ -11,7 +11,7 @@ from src import store, builder
 from datetime import datetime
 
 FILE_PATH = os.path.abspath(os.environ['APP_CONFIG_PATH'])
-ADMIN_USERS = os.environ['ADMIN_USERS'].split(',')
+ADMIN_USERS = os.environ['ADMIN_USERS'].split(':')
 admin_users = [int(n) for n in ADMIN_USERS] if len(ADMIN_USERS) else []
 
 app = Flask(__name__)
