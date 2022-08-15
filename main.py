@@ -73,9 +73,9 @@ dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, start))
 load_backup = False
 
 if load_backup:
-    print("init: load latest backup")
+    print("init: load latest backup from gdrive folder")
     data = json.loads(store.load_backup())
     if data:
-        print("init: got data", data)
+        print("init: got data from backup in gdrive", data)
         store.do_config(json.dumps(store.process_slots(data)))
-        print("init: config finished")
+        print("init: backup loaded - finished")
