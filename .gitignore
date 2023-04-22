@@ -1,2 +1,4 @@
 .env
 logs
+staging_credentials.json
+.secrets

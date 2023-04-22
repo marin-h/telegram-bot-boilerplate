@@ -1,0 +1,303 @@
+{
+    "Fechas de inscripción ": {
+        "slot_text": "¿Tenés para anotar? Acá te paso las fechas de inscripción ⏰ para cada cuatrimestre:\n- Primer cuatrimestre entre el 15 y el 19 de marzo de 2021. \n- Segundo cuatrimestre entre el 2 al 6 de agosto de 2021.\n- Seminarios de verano entre el 20 al 22 de diciembre de 2021.\nPara conocer el calendario académico completo hacé click  👉  <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a>.",
+        "slot_options": []
+    },
+    "Fechas de inscripción a las mesas de examen": {
+        "slot_text": "¿Tenés para anotar? Acá te paso las las fechas de inscripción ⏰ para cada turno.\n- Turno marzo entre el 8 y el 14 de febrero de 2021. \n- Turno mayo entre el 28 y el 30 de abril de 2021. \n- Turno julio entre el 21 y el 25 de junio de 2021. \n- Turno septiembre entre el 6 al 8 de septiembre de 2021.\n- Turno diciembre entre 8 al 12 de noviembre de 2021.\nPara conocer el calendario académico completo hacé click  👉  <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a>.",
+        "slot_options": []
+    },
+    "Calendario académico vigente": {
+        "slot_text": "Hacé click 👉   <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a> para encontrar todas las fechas del calendario académico 2021.",
+        "slot_options": []
+    },
+    "Inscripciones": {
+        "slot_text": "Ingresá una de las siguientes opciones para seguir:",
+        "slot_options": [
+            {
+                "slot_id": "Inscripciones",
+                "text": "Fechas de inscripción ",
+                "id": "Fechas de inscripción "
+            },
+            {
+                "slot_id": "Inscripciones",
+                "text": "Fechas de inscripción a las mesas de examen",
+                "id": "Fechas de inscripción a las mesas de examen"
+            },
+            {
+                "slot_id": "Inscripciones",
+                "text": "Calendario académico vigente",
+                "id": "Calendario académico vigente"
+            }
+        ]
+    },
+    "Horarios": {
+        "slot_text": "Para conocer los horarios de una materia o seminario del segundo cuatrimestre de 2021, hacé click 👉  <a href=\"http://mate.filo.uba.ar/sites/mate.filo.uba.ar/files/documentos/PLANILLA%20HORARIOS%20PARA%20ESTUDIANTES%202C%202021%20%285-07-21%29.pdf\">acá</a>.",
+        "slot_options": []
+    },
+    "Funcionamiento del campus": {
+        "slot_text": "Si sos ingresante, seguramente tengas que crearte una cuenta. ¡No te preocupes!  En este video podés ver los pasos para hacerlo. \n\nSi tenés otras dudas sobre el funcionamiento del campus, existe un espacio para resolverlas. Hacé click 👉  <a href=\"https://campus.filo.uba.ar/course/view.php?id=1450\">acá</a>.",
+        "slot_options": []
+    },
+    "Matriculación a una materia": {
+        "slot_text": "La matriculación en el campus no es automática. Para poder matricularte en el campus en las materias o cursos de idiomas necesitarás lo que se llama una \"clave de matriculación\". Desde el Departamento de mate les pedimos a todas las cátedras que este año usen la clave \"mate2021\". Si no te toma esta clave, lo más probable es que la materia en cuestión esté en proceso de diseñar su campus, por lo que conviene esperar hasta la semana próxima.\nRespecto de los cursos de idioma, que dependen del Departamento de Lenguas Modernas, las claves serán enviadas por mail a lxs estudiantes inscritxs. Por último, respecto de las materias del Dpto. de mate Clásicas \\(Latín y Griego\\), las claves estarán subidas en la página de dicho Departamento.\nLa clave de Didáctica general este año es: LxsArtesanxs\nAl estar matriculado en el campus, ya la cátedra podrá comunicarse con vos por esa vía. Cada cátedra informará la modalidad en la que se realizará la inscripción a comisiones de prácticos.\n",
+        "slot_options": []
+    },
+    "Campus virtual": {
+        "slot_text": "El campus virtual... Sé que a veces puede ser un poco complicado al principio. Puedo ayudarte si ingresás alguna de las siguientes opciones:",
+        "slot_options": [
+            {
+                "slot_id": "Campus virtual",
+                "text": "Funcionamiento del campus",
+                "id": "Funcionamiento del campus"
+            },
+            {
+                "slot_id": "Campus virtual",
+                "text": "Matriculación a una materia",
+                "id": "Matriculación a una materia"
+            }
+        ]
+    },
+    "Convocatorias": {
+        "slot_text": "Hacé click  👉 <a href=\"http://mate.filo.uba.ar/content/convocatoria-adscripciones\"> acá </a> para conocer las convocatorias.",
+        "slot_options": []
+    },
+    "Requisitos para postularme": {
+        "slot_text": "Hacé click en 👉 <a href= \"http://mate.filo.uba.ar/content/resoluci%C3%B3n-sobre-adscripciones\"> este enlace</a> para saber cómo postularte. ",
+        "slot_options": []
+    },
+    "Quiero postularme a una adscripción": {
+        "slot_text": "Hacé click en 👉  <a href=\"http://mate.filo.uba.ar/FAQ_adscripciones/\">este enlace</a> para leer el reglamento de adscripciones.",
+        "slot_options": []
+    },
+    "Adscripciones": {
+        "slot_text": "¿Querés dar tu primer paso en la investigación? ¡Quiero ayudarte! Ingresá una de las opciones para seguir:",
+        "slot_options": [
+            {
+                "slot_id": "Adscripciones",
+                "text": "Convocatorias",
+                "id": "Convocatorias"
+            },
+            {
+                "slot_id": "Adscripciones",
+                "text": "Requisitos para postularme",
+                "id": "Requisitos para postularme"
+            },
+            {
+                "slot_id": "Adscripciones",
+                "text": "Quiero postularme a una adscripción",
+                "id": "Quiero postularme a una adscripción"
+            }
+        ]
+    },
+    "¿Qué correlatividades hay en la carrera de mate?": {
+        "slot_text": "Para conocer sobre las correlatividades de la carrera, hacé click  <a href=\"http://mate.filo.uba.ar/plan-de-estudios-versi%C3%B3n-antigua#corre1\">acá</a>.",
+        "slot_options": []
+    },
+    "¿Gramática es correlativa de Lingüística?": {
+        "slot_text": "Para rendir Lingüística, es necesario haber cursado Gramática.",
+        "slot_options": []
+    },
+    "¿Teoría y Análisis Literario es correlativa del resto de las materias? ": {
+        "slot_text": "Para rendir alguna Literatura, es necesario haber cursado Teoría y Análisis Literario.",
+        "slot_options": []
+    },
+    "Correlatividad de materias": {
+        "slot_text": "¿Quién no ha tenido esta duda alguna vez? Ingresá uno de las siguientes opciones para poder ayudarte:",
+        "slot_options": [
+            {
+                "slot_id": "Correlatividad de materias",
+                "text": "¿Qué correlatividades hay en la carrera de mate?",
+                "id": "¿Qué correlatividades hay en la carrera de mate?"
+            },
+            {
+                "slot_id": "Correlatividad de materias",
+                "text": "¿Gramática es correlativa de Lingüística?",
+                "id": "¿Gramática es correlativa de Lingüística?"
+            },
+            {
+                "slot_id": "Correlatividad de materias",
+                "text": "¿Teoría y Análisis Literario es correlativa del resto de las materias? ",
+                "id": "¿Teoría y Análisis Literario es correlativa del resto de las materias? "
+            }
+        ]
+    },
+    "Quiero conocer el promedio histórico de mate.": {
+        "slot_text": "El promedio histórico de la carrera de mate es 8,07.\n\n",
+        "slot_options": []
+    },
+    "Quiero tramitar un certificado de promedio histórico. ": {
+        "slot_text": "Para tramitar un certificado de promedio histórico, hacé click acá.",
+        "slot_options": []
+    },
+    "¿Para qué me sirve saber el promedio histórico?": {
+        "slot_text": "Esta información puede ser solicitada en concursos, convocatorias a becas, entre otros.",
+        "slot_options": []
+    },
+    "¿Hay diferencia entre el del profesorado y la licenciatura?": {
+        "slot_text": "No, es el mismo.",
+        "slot_options": []
+    },
+    "Tengo dudas sobre el promedio histórico.": {
+        "slot_text": "¿Tenés dudas sobre el promedio histórico?",
+        "slot_options": [
+            {
+                "slot_id": "Tengo dudas sobre el promedio histórico.",
+                "text": "¿Para qué me sirve saber el promedio histórico?",
+                "id": "¿Para qué me sirve saber el promedio histórico?"
+            },
+            {
+                "slot_id": "Tengo dudas sobre el promedio histórico.",
+                "text": "¿Hay diferencia entre el del profesorado y la licenciatura?",
+                "id": "¿Hay diferencia entre el del profesorado y la licenciatura?"
+            }
+        ]
+    },
+    "Promedio histórico": {
+        "slot_text": "Ingresá una de las siguientes opciones para seguir:",
+        "slot_options": [
+            {
+                "slot_id": "Promedio histórico",
+                "text": "Quiero conocer el promedio histórico de mate.",
+                "id": "Quiero conocer el promedio histórico de mate."
+            },
+            {
+                "slot_id": "Promedio histórico",
+                "text": "Quiero tramitar un certificado de promedio histórico. ",
+                "id": "Quiero tramitar un certificado de promedio histórico. "
+            },
+            {
+                "slot_id": "Promedio histórico",
+                "text": "Tengo dudas sobre el promedio histórico.",
+                "id": "Tengo dudas sobre el promedio histórico."
+            }
+        ]
+    },
+    "Certificado de alumno regular": {
+        "slot_text": "Los certificados de alumno regular se tramitan a través de <a href=\"http://suiga.filo.uba.ar/inicial.php\">SUIGA</a>.  Hacé click 👉  <a href= \"http://academica.filo.uba.ar/certificado-de-alumno-regular\">acá</a> para saber los pasos a seguir.",
+        "slot_options": []
+    },
+    "Certificado de examen": {
+        "slot_text": "Para solicitar un certificado de examen \\(parcial o final\\) tenés que escribir a la Dirección de Profesores \n👉   <a href= \"mailto:direcciondeprofesores@filo.uba.ar\">direcciondeprofesores@filo.uba.ar</a> con los siguientes datos: \n\n- Apellido y Nombre Completo, \n- Nº de DNI \n- Carrera \n- Materia por la cual solicita el certificado \n- Fecha en que tuvo lugar el examen parcial/final.\n\nHacé click para saber los pasos a seguir si rendiste un 👉  <a href=\"http://academica.filo.uba.ar/certificado-de-examen-parcial\">parcial</a>  o si rendiste un 👉  <a href=\"http://academica.filo.uba.ar/certificado-de-examen-final\">final</a>.  \n\n",
+        "slot_options": []
+    },
+    "Equivalencia y/o reconocimiento de asignaturas de otra carrera": {
+        "slot_text": "Hacé click <a href= \"http://academica.filo.uba.ar/equivalencia-yo-reconocimiento-de-asignaturas\">acá</a>. para saber cómo hacer tu trámite de equivalencia y/o reconocimiento de asignaturas de otra carrera. ",
+        "slot_options": []
+    },
+    "Otros trámites": {
+        "slot_text": "Si querés consultar por otros trámites, hacé click <a href=\"http://academica.filo.uba.ar/tramites-distancia-estudiantes\">acá</a> para ver la lista completa. ",
+        "slot_options": []
+    },
+    "Trámites": {
+        "slot_text": "¡No desesperes! Puedo ayudarte con estos trámites.  Ingresá una opción del menú para seguir. ",
+        "slot_options": [
+            {
+                "slot_id": "Trámites",
+                "text": "Certificado de alumno regular",
+                "id": "Certificado de alumno regular"
+            },
+            {
+                "slot_id": "Trámites",
+                "text": "Certificado de examen",
+                "id": "Certificado de examen"
+            },
+            {
+                "slot_id": "Trámites",
+                "text": "Equivalencia y/o reconocimiento de asignaturas de otra carrera",
+                "id": "Equivalencia y/o reconocimiento de asignaturas de otra carrera"
+            },
+            {
+                "slot_id": "Trámites",
+                "text": "Otros trámites",
+                "id": "Otros trámites"
+            }
+        ]
+    },
+    "Wikimate": {
+        "slot_text": "Wikimate es una herramienta de consulta para estudiantes, graduados e investigadores. En el año 2019, Wikimate surge a partir de la iniciativa del Departamento de mate de la Universidad de Buenos Aires con el objetivo de reunir información actualizada y relevante para la tarea académica en el marco del proyecto departamental \"Archivo de publicaciones y proyectos de investigación en curso\". Actualmente, esta herramienta ofrece información sobre proyectos de investigación y extensión iniciados a partir de 2014 en la Argentina, proyectos departamentales e institutos de investigación de la Universidad de Buenos Aires y revistas y publicaciones especializadas vigentes de este país, Brasil, Chile y España.\n\nEntrá 👉  <a href=\"http://wikimate.com.ar/\">Wikimate</a>",
+        "slot_options": []
+    },
+    "Quiero unirme al canal de Telegram.": {
+        "slot_text": "Hacé click <a href=\"https://t.me/Novedadesmate\">acá </a>para unirte a nuestro canal y recibir las últimas novedades. ",
+        "slot_options": []
+    },
+    "Quiero subscribirme a la lista de email.": {
+        "slot_text": "Si querés sumarte a las listas de correo del Departamento, solicitalo a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>.\n",
+        "slot_options": []
+    },
+    "Recibir novedades": {
+        "slot_text": "Opciones para recibir novedades",
+        "slot_options": [
+            {
+                "slot_id": "Recibir novedades",
+                "text": "Quiero unirme al canal de Telegram.",
+                "id": "Quiero unirme al canal de Telegram."
+            },
+            {
+                "slot_id": "Recibir novedades",
+                "text": "Quiero subscribirme a la lista de email.",
+                "id": "Quiero subscribirme a la lista de email."
+            }
+        ]
+    },
+    "Otros temas": {
+        "slot_text": "Si no pudiste resolver tu consulta, escribí a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>.",
+        "slot_options": []
+    },
+    "start": {
+        "slot_text": "¡Hola! Soy UNLA_Mate_bot, el bot del Departamento de mate de la UBA. ¿En qué puedo ayudarte? \nIngresá uno de las siguientes opciones:",
+        "slot_options": [
+            {
+                "slot_id": "start",
+                "text": "Inscripciones",
+                "id": "Inscripciones"
+            },
+            {
+                "slot_id": "start",
+                "text": "Horarios",
+                "id": "Horarios"
+            },
+            {
+                "slot_id": "start",
+                "text": "Campus virtual",
+                "id": "Campus virtual"
+            },
+            {
+                "slot_id": "start",
+                "text": "Adscripciones",
+                "id": "Adscripciones"
+            },
+            {
+                "slot_id": "start",
+                "text": "Correlatividad de materias",
+                "id": "Correlatividad de materias"
+            },
+            {
+                "slot_id": "start",
+                "text": "Promedio histórico",
+                "id": "Promedio histórico"
+            },
+            {
+                "slot_id": "start",
+                "text": "Trámites",
+                "id": "Trámites"
+            },
+            {
+                "slot_id": "start",
+                "text": "Wikimate",
+                "id": "Wikimate"
+            },
+            {
+                "slot_id": "start",
+                "text": "Recibir novedades",
+                "id": "Recibir novedades"
+            },
+            {
+                "slot_id": "start",
+                "text": "Otros temas",
+                "id": "Otros temas"
+            }
+        ]
+    }
+}
