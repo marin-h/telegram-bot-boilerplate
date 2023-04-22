@@ -1,302 +1,263 @@
 {
-    "inscripciones": {
-        "slot_text": "Ingresá una de las siguientes opciones para seguir:",
+    "5f8f89f8-60a9-4ca2-afbd-ad9426e05707": {
+        "slot_text": "Primer cuatrimestre 👉 12/3/2023 al 14/3/2023\nSegundo cuatrimestre 👉 31/7/2023 al 1/8/2023 ",
+        "slot_options": []
+    },
+    "2838fa31-896a-4e45-9609-51c2a50db230": {
+        "slot_text": "Primer turno 👉 26/4/2023 al 27/4/2023\nSegundo turno 👉3/7/2023 al 4/7/2023 \nTercer turno 👉18/9/2023 al 19/9/2023 \nCuarto turno 👉20/11/2023 al 21/11/2023 ",
+        "slot_options": []
+    },
+    "df388369-4040-47c8-8607-3a41c0208f6c": {
+        "slot_text": "Primer cuatrimestre 👉 27/3/2023 al 1/7/2023\nSegundo cuatrimestre 👉 7/8/2023 l 11/11/2023",
+        "slot_options": []
+    },
+    "4d207c6c-9147-4981-bdb5-1fbea916bde8": {
+        "slot_text": "Usá la botonera para encontrar lo que buscás, o bien hacé click <a href=\"http://www.unla.edu.ar/documentos/Calendario_Academico_2023.pdf\">acá</a> para ver todo el calendario académico 2023.",
         "slot_options": [
             {
-                "slot_id": "inscripciones",
-                "text": "Fechas de inscripción ",
-                "id": "fechas_cursada"
+                "slot_id": "4d207c6c-9147-4981-bdb5-1fbea916bde8",
+                "text": "Fechas de inscripción a asignaturas de 2023",
+                "id": "5f8f89f8-60a9-4ca2-afbd-ad9426e05707"
             },
             {
-                "slot_id": "inscripciones",
-                "text": "Fechas de inscripción a las mesas de examen",
-                "id": "fechas_examen"
+                "slot_id": "4d207c6c-9147-4981-bdb5-1fbea916bde8",
+                "text": "Fechas de inscripción a exámenes de 2023",
+                "id": "2838fa31-896a-4e45-9609-51c2a50db230"
             },
             {
-                "slot_id": "inscripciones",
-                "text": "Calendario académico vigente",
-                "id": "calendario_academico"
+                "slot_id": "4d207c6c-9147-4981-bdb5-1fbea916bde8",
+                "text": "Fechas de inicios de cuatrimestre de 2023",
+                "id": "df388369-4040-47c8-8607-3a41c0208f6c"
             }
         ]
     },
-    "calendario_academico": {
-        "slot_text": "Hacé click 👉   <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a> para encontrar todas las fechas del calendario académico 2021.",
+    "fd4bac58-ed35-45a9-b669-4cb15e724235": {
+        "slot_text": "Los y las estudiantes que se encuentren registrados como Activo No Regular podrán solicitar la reincorporación a la Carrera.Si estás registrado como Activo Regular no debés hacer este trámite para inscribirte a materias, pudiendo regularizar tu situación una vez retomadas las actividades presenciales.\nSeguí estos cinco pasos para llevar a cabo el trámite.\n\n1. Ingresá al Sistema de Gestión Académica en internet <a href=\"http://alumnos.unla.edu.ar/Guarani3W_262/inicial.php\">SIU Guaraní3W</a>\n2. Hacé clic en 👉 Matrícula / Solicitud de Reincorporación\n3. Hacé clic en el botón 👉 Solicitar Reincorporación\n4. Seguí el estado del trámite desde el mismo Sistema de Gestión y revisá el correo electrónico donde recibirás novedades del trámite y, en los casos que corresponda, instrucciones para efectuar el pago electrónico de la tasa correspondiente al trámite.\n5. En caso de que la solicitud de reincorporación sea resuelta favorablemente, luego del periodo de inscripción a materias comunicarse con la Dirección de la Carrera para tramitar inscripción a cursadas.",
         "slot_options": []
     },
-    "fechas_cursada": {
-        "slot_text": "¿Tenés para anotar? Acá te paso las fechas de inscripción ⏰ para cada cuatrimestre:\n- Primer cuatrimestre entre el 15 y el 19 de marzo de 2021. \n- Segundo cuatrimestre entre el 2 al 6 de agosto de 2021.\n- Seminarios de verano entre el 20 al 22 de diciembre de 2021.\nPara conocer el calendario académico completo hacé click  👉  <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a>.",
+    "fc38a9f8-ec7c-4667-b210-39b948fa563a": {
+        "slot_text": "Para solicitar un certificado analítico no verificado en actas completá el siguiente 👉 formulario y esperá el correo electrónico con el certificado digital o acordá un turno para retirarlo. \nPara solicitar un certificado analítico verificado en actas completá el siguiente 👉 formulario y esperá el correo electrónico con el certificado digital o acordá un turno para retirarlo.\nPodés acceder a la visualización de la historia académica en el Sistema de Gestión Académica SIU Guaraní, en Guarani3w - SIU - Alumnos: Matrícula / Historia Académica / Materias aprobadas.",
         "slot_options": []
     },
-    "fechas_examen": {
-        "slot_text": "¿Tenés para anotar? Acá te paso las las fechas de inscripción ⏰ para cada turno.\n- Turno marzo entre el 8 y el 14 de febrero de 2021. \n- Turno mayo entre el 28 y el 30 de abril de 2021. \n- Turno julio entre el 21 y el 25 de junio de 2021. \n- Turno septiembre entre el 6 al 8 de septiembre de 2021.\n- Turno diciembre entre 8 al 12 de noviembre de 2021.\nPara conocer el calendario académico completo hacé click  👉  <a href=\"http://academica.filo.uba.ar/calendario-acad%C3%A9mico/\">acá</a>.",
+    "3009c54b-3a08-4461-8f62-b57584a2dd91": {
+        "slot_text": "Para solicitar un certificado de estudiante regular completá el siguiente 👉 formulario.\nLa constancia será recibida en el correo electrónico declarado siempre que cumpla con los requisitos necesarios para su emisión.",
+        "slot_options": []
+    },
+    "de17e9ab-0059-4346-afe5-f86d415edf14": {
+        "slot_text": "Podés solicitar un certificado de examen ante \nEl estudiante podrá solicitar un certificado de examen ante el Departamento de Planificación y Políticas Públicas. El departamento enviará a la Dirección de Gestión y Documentación Estudiantil los pedidos para verificar los datos consignados y emitirá las constancias correspondientes.",
+        "slot_options": []
+    },
+    "feb08b42-f86c-4dfc-b371-36535fab344d": {
+        "slot_text": "Seguí los siguientes pasos para tramitar tu equivalencia. \n\n1. Chequeá la documentación necesaria para tramitar una equivalencia en este 👉 enlace.\n2. Enviá tu documentación a equivalencias@unla.edu.ar para su revisión y posterior asignación de turno y habilitación para el pago de las tasas académicas correspondientes.\n3. Una vez asignado el turno el / la estudiante asistirá con la documentación original que será validada contra la documentación enviada.",
+        "slot_options": []
+    },
+    "b349aa64-5fce-4d08-89b2-dff83da64b3f": {
+        "slot_text": "Para solicitar la certificación de programas de materias aprobadas, tenés que presentar ante la Dirección del Ciclo de Licenciatura en Tecnologías Digitales para la Educación la siguiente documentación:\n✅ Certificado de analítico verificado en actas. En caso de no contar con el certificado, se puede gestionar solicitud en este enlace.\n✅ Formulario completo. Descargalo en este enlace. Te recomendamos ingresar al Sistema de Gestión Académica en internet SIU Guarani3W para obtener código/s de las materias aprobadas y cursadas.\n✅ Comprobante de pago de la tasa correspondiente. Podés pagar desde el Sistema de Gestión Académica en internet (SIU Guaraní 3W). Si tenés dudas, podés acceder al instructivo.)\nUna vez emitida la certificación deberás contactarte a 👉 este correo correspondiente para coordinar entrega de la documentación correspondiente.",
+        "slot_options": []
+    },
+    "5e1e7b41-a5dc-4aec-a249-eb5ba0abae47": {
+        "slot_text": "Para acceder al Módulo de Pagos, hacé click en este 👉 enlace. En caso de que tu E-Mail no se encuentre registrado en el Sistema de Pagos, acercate personalmente a Tesorería General o comunicarte con el asistente de tu carrera.",
+        "slot_options": []
+    },
+    "e42a7aee-247a-436f-bc43-13d20d10841a": {
+        "slot_text": "Hacé click en 👉 enlace para acceder al reglamento académico.",
+        "slot_options": []
+    },
+    "c59e012d-5b91-4573-ba63-1861a9420846": {
+        "slot_text": "",
+        "slot_options": []
+    },
+    "aebba30d-1142-47ed-9f85-0e7cc4588b80": {
+        "slot_text": "Conocé cómo obtener certificados y realizar trámites de equivalencias.",
+        "slot_options": [
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Reincorporación",
+                "id": "fd4bac58-ed35-45a9-b669-4cb15e724235"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Certificados de estudios",
+                "id": "fc38a9f8-ec7c-4667-b210-39b948fa563a"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Certificado de estudiante regular",
+                "id": "3009c54b-3a08-4461-8f62-b57584a2dd91"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Constancia de exámenes",
+                "id": "de17e9ab-0059-4346-afe5-f86d415edf14"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Equivalencias",
+                "id": "feb08b42-f86c-4dfc-b371-36535fab344d"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Certificación de programas",
+                "id": "b349aa64-5fce-4d08-89b2-dff83da64b3f"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Pago electrónico de carreras aranceladas",
+                "id": "5e1e7b41-a5dc-4aec-a249-eb5ba0abae47"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "Reglamento Académico",
+                "id": "e42a7aee-247a-436f-bc43-13d20d10841a"
+            },
+            {
+                "slot_id": "aebba30d-1142-47ed-9f85-0e7cc4588b80",
+                "text": "",
+                "id": "c59e012d-5b91-4573-ba63-1861a9420846"
+            }
+        ]
+    },
+    "8acec932-91cc-4c5f-98eb-53fe48851400": {
+        "slot_text": "Hacé click en 👉 enlace para acceder a información actualizada del cronograma de entrega de diplomas. \n",
+        "slot_options": []
+    },
+    "fc1aa412-c869-41cf-bf3a-5ac97efb67ad": {
+        "slot_text": "Hacé click en 👉 enlace para acceder a información actualizada sobre las propuestas de posgrado de la UNLA.",
+        "slot_options": []
+    },
+    "060ae4fe-70c3-4ae7-94bd-feef54393ba3": {
+        "slot_text": "Una vez que hayas aprobado la totalidad de las asignaturas del Ciclo de Licenciatura, podés solicitar el inicio del trámite de expedición de Diploma siguiendo los siguientes pasos:\n1. Ingresá al Sistema de Gestión Académica en internet SIU Guaraní3W en 👉 este enlace.\n2. Hacé click en Matrícula / Solicitud de Título.\n3. Hacé click en el botón Solicitar Inicio de Trámite. Solo podrá efectuarse si se encuentra en condiciones de solicitar el título.\nEn caso que aparezcan como pendiente/s de aprobación materia/s de Idiomas y/o Informática y hayas aprobado (en condición de Libre) niveles superiores escribí a estudiantil@unla.edu.ar para gestionar reconocimiento de dichas asignaturas.\n4. Actualizá la información y completá el Formulario correspondiente.\n5. Descargá el Formulario (deberá ser subido posteriormente al Campus Virtual).\n6. Una vez finalizado el paso serás matriculado en un aula del campus virtual de la Universidad 👉 www.campus.unla.edu.ar\n7. Ahora ingresá al Campus y en el aula virtual (Inicio de solicitud de Diplomas) completá la tarea subiendo la totalidad de la documentación requerida 👉\n✅ Solicitud de Diploma (Descarga desde SIU Guaraní 3w)\n✅ DNI (Frente y Dorso).\n✅ Constancia de haber completado encuesta obligatoria de egresados (disponible en http://encuestas.unla.edu.ar)\n✅ Constancia de libre deuda de Biblioteca. (consultasbiblio@unla.edu.ar)\n✅ Plan de Estudios de la Carrera (se solicita en su carrera)\n✅ Título (Frente y Dorso)                                                                                                            \n✅ Certificado o constancia de carga horaria emitida por la institución de origen. \n✅ Libre deuda de tesorería. Podés solicitarlo solicitar a 👉 este correo lfernandez@unla.edu.ar",
+        "slot_options": []
+    },
+    "329a90a8-6975-43c0-a13b-5c11da110838": {
+        "slot_text": "",
+        "slot_options": []
+    },
+    "8838e6d5-82ae-476b-b554-a9ca8827a65a": {
+        "slot_text": "Enterate de todo lo que tenés que saber si estás cerca de finalizar tu licenciatura.",
+        "slot_options": [
+            {
+                "slot_id": "8838e6d5-82ae-476b-b554-a9ca8827a65a",
+                "text": "Cronograma de entrega de Diplomas",
+                "id": "8acec932-91cc-4c5f-98eb-53fe48851400"
+            },
+            {
+                "slot_id": "8838e6d5-82ae-476b-b554-a9ca8827a65a",
+                "text": "Propuestas de posgrado",
+                "id": "fc1aa412-c869-41cf-bf3a-5ac97efb67ad"
+            },
+            {
+                "slot_id": "8838e6d5-82ae-476b-b554-a9ca8827a65a",
+                "text": "Inicio de trámite de título",
+                "id": "060ae4fe-70c3-4ae7-94bd-feef54393ba3"
+            },
+            {
+                "slot_id": "8838e6d5-82ae-476b-b554-a9ca8827a65a",
+                "text": "",
+                "id": "329a90a8-6975-43c0-a13b-5c11da110838"
+            }
+        ]
+    },
+    "c22601c2-ba3e-42d1-8c71-2523b259faaa": {
+        "slot_text": "Durante esta carrera a distancias, aprenderás sobre los nuevos escenarios educativos a partir de la utilización de tecnologías digitales; conocerás aplicaciones libres destinadas a la enseñanza y el aprendizaje; y trabajarás en distintas propuestas pedagógicas que involucren activamente a sus estudiantes. Accedé a más información en este 👉 enlace. ",
+        "slot_options": []
+    },
+    "3c2dbc6f-328d-4233-8be2-2166eec0127e": {
+        "slot_text": "✅ Diseñar, desarrollar y evaluar programas y proyectos interdisciplinarios de formación para todos los niveles educativos a partir de la incorporación de tecnologías digitales.\n✅ Analizar y diseñar políticas públicas y acciones privadas que involucren la inclusión de tecnologías digitales para la educación.\n✅ Desempeñarte como referente tecnológico en diversas configuraciones que involucran tecnologías digitales para educación.\n✅ Participar en tareas de supervisión, asesoramiento y evaluación relacionadas a la utilización de tecnologías digitales con fines educativos.\n✅ Desempeñarte en el desarrollo de proyectos de inclusión de Tecnologías digitales en instituciones escolares y otras organizaciones afines, vinculadas a la producción y distribución de software educativo u otros contenidos educativos digitales.\n✅ Asesorar y organizar programas de capacitación y/o extracurriculares en el área de tecnologías digitales relacionadas con la educación.",
+        "slot_options": []
+    },
+    "b7c4c13b-6605-4426-93e2-4d3a5afcbab9": {
+        "slot_text": "Accedé al plan de estudios haciendo click en en este 👉 enlace. ",
+        "slot_options": []
+    },
+    "ee7f4b7a-3d99-4115-a3b8-3a8ffc85d334": {
+        "slot_text": "Para ingresar necesitás título de docente en distintas disciplinas; ser técnico en informática, diseño web, multimedia y/o disciplinas relacionadas; o ser egresado en Sistemas (u otras titulaciones universitarias en el mismo campo: licenciados en Sistemas, Ingenieros, Programadores). En todos los casos las formaciones requeridas no pueden acreditar menos de 2 años de duración y 1400 horas de carga horaria.",
+        "slot_options": []
+    },
+    "2a01ef04-b356-44b5-8e54-55dd2c5c192a": {
+        "slot_text": "",
+        "slot_options": []
+    },
+    "7cbcfede-2e04-42b6-89c2-87b99f0f99db": {
+        "slot_text": "",
+        "slot_options": [
+            {
+                "slot_id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db",
+                "text": "¿Qué se estudia en el Ciclo?",
+                "id": "c22601c2-ba3e-42d1-8c71-2523b259faaa"
+            },
+            {
+                "slot_id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db",
+                "text": "Perfil del egresado",
+                "id": "3c2dbc6f-328d-4233-8be2-2166eec0127e"
+            },
+            {
+                "slot_id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db",
+                "text": "Plan de estudios",
+                "id": "b7c4c13b-6605-4426-93e2-4d3a5afcbab9"
+            },
+            {
+                "slot_id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db",
+                "text": "¿Qué necesito para ingresar?",
+                "id": "ee7f4b7a-3d99-4115-a3b8-3a8ffc85d334"
+            },
+            {
+                "slot_id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db",
+                "text": "",
+                "id": "2a01ef04-b356-44b5-8e54-55dd2c5c192a"
+            }
+        ]
+    },
+    "86d6d0ad-3e6e-41db-a979-a57bd2a549a4": {
+        "slot_text": "Seguí las redes sociales de la Universidad para conocer las fechas de inscripción. \n\nInstagram\n@academicaunlaoficial\nFacebook:\nAcademica UNLa Oficial",
+        "slot_options": []
+    },
+    "425f10b2-8c4d-4c35-8463-9badb8731f5e": {
+        "slot_text": "",
+        "slot_options": [
+            {
+                "slot_id": "425f10b2-8c4d-4c35-8463-9badb8731f5e",
+                "text": "Fechas de inscripción",
+                "id": "86d6d0ad-3e6e-41db-a979-a57bd2a549a4"
+            }
+        ]
+    },
+    "07c829bd-dbc0-455d-b860-efd921d9a57b": {
+        "slot_text": "\n1. Ingresá a: http://preinscripcion.unla.edu.ar\n2. Generá tu identificación de usuario e ingresá al sistema de preinscripción a carrera seleccionando “ciclo de licenciatura”.\n3. Completá el formulario de preinscripción y adjuntá la documentación requerida para la carrera seleccionada. \n✅  DNI(ambos lados)\n✅  Título que habilite el ingreso a la carrera conforme condiciones de ingreso según Plan de Estudios (ambos lados)\n✅ Carga horaria del título presentado\n✅ Foto\nUna vez validada la documentación te convocaremos para que presentes la documentación original en la Dirección de Gestión y Documentación Estudiantil y realices el pago de la matrícula correspondiente.",
         "slot_options": []
     },
     "start": {
-        "slot_text": "¡Hola! Soy UNLA_Mate_bot, el bot del Departamento de mate de la UBA. ¿En qué puedo ayudarte? \nIngresá uno de las siguientes opciones:",
+        "slot_text": "¡Hola! Mi nombre es Mate Bot y puedo ayudarte con dudas o preguntas sobre las carreras de educación a distancia de la UNLA.",
         "slot_options": [
             {
                 "slot_id": "start",
-                "text": "Inscripciones",
-                "id": "inscripciones"
+                "text": "Fechas importantes",
+                "id": "4d207c6c-9147-4981-bdb5-1fbea916bde8"
             },
             {
                 "slot_id": "start",
-                "text": "Horarios",
-                "id": "horarios"
+                "text": "Trámites y equivalencias",
+                "id": "aebba30d-1142-47ed-9f85-0e7cc4588b80"
             },
             {
                 "slot_id": "start",
-                "text": "Campus virtual",
-                "id": "campus"
+                "text": "Estoy terminando el Ciclo de Licenciatura en Tecnologías Digitales para la Educación ",
+                "id": "8838e6d5-82ae-476b-b554-a9ca8827a65a"
             },
             {
                 "slot_id": "start",
-                "text": "Adscripciones",
-                "id": "adscripciones"
+                "text": "Información sobre el Ciclo de Licenciatura en Tecnologías Digitales para la Educación",
+                "id": "7cbcfede-2e04-42b6-89c2-87b99f0f99db"
             },
             {
                 "slot_id": "start",
-                "text": "Correlatividad de materias",
-                "id": "correlativas"
+                "text": "Inscripciones a la carrera",
+                "id": "425f10b2-8c4d-4c35-8463-9badb8731f5e"
             },
             {
                 "slot_id": "start",
-                "text": "Promedio histórico",
-                "id": "promedio_historico"
-            },
-            {
-                "slot_id": "start",
-                "text": "Trámites",
-                "id": "tramites"
-            },
-            {
-                "slot_id": "start",
-                "text": "Wikimate",
-                "id": "wikimate"
-            },
-            {
-                "slot_id": "start",
-                "text": "Recibir novedades",
-                "id": "novedades"
-            },
-            {
-                "slot_id": "start",
-                "text": "Otros temas",
-                "id": "otros"
-            }
-        ]
-    },
-    "campus": {
-        "slot_text": "El campus virtual... Sé que a veces puede ser un poco complicado al principio. Puedo ayudarte si ingresás alguna de las siguientes opciones:",
-        "slot_options": [
-            {
-                "slot_id": "campus",
-                "text": "Funcionamiento del campus",
-                "id": "funcionamiento"
-            },
-            {
-                "slot_id": "campus",
-                "text": "Matriculación a una materia",
-                "id": "matricularme"
-            }
-        ]
-    },
-    "funcionamiento": {
-        "slot_text": "Si sos ingresante, seguramente tengas que crearte una cuenta. ¡No te preocupes!  En este video podés ver los pasos para hacerlo. \n\nSi tenés otras dudas sobre el funcionamiento del campus, existe un espacio para resolverlas. Hacé click 👉  <a href=\"https://campus.filo.uba.ar/course/view.php?id=1450\">acá</a>.",
-        "slot_options": []
-    },
-    "matricularme": {
-        "slot_text": "La matriculación en el campus no es automática. Para poder matricularte en el campus en las materias o cursos de idiomas necesitarás lo que se llama una \"clave de matriculación\". Desde el Departamento de mate les pedimos a todas las cátedras que este año usen la clave \"mate2021\". Si no te toma esta clave, lo más probable es que la materia en cuestión esté en proceso de diseñar su campus, por lo que conviene esperar hasta la semana próxima.\nRespecto de los cursos de idioma, que dependen del Departamento de Lenguas Modernas, las claves serán enviadas por mail a lxs estudiantes inscritxs. Por último, respecto de las materias del Dpto. de mate Clásicas \\(Latín y Griego\\), las claves estarán subidas en la página de dicho Departamento.\nLa clave de Didáctica general este año es: LxsArtesanxs\nAl estar matriculado en el campus, ya la cátedra podrá comunicarse con vos por esa vía. Cada cátedra informará la modalidad en la que se realizará la inscripción a comisiones de prácticos.\n",
-        "slot_options": []
-    },
-    "adscripciones": {
-        "slot_text": "¿Querés dar tu primer paso en la investigación? ¡Quiero ayudarte! Ingresá una de las opciones para seguir:",
-        "slot_options": [
-            {
-                "slot_id": "adscripciones",
-                "text": "Convocatorias",
-                "id": "convocatorias"
-            },
-            {
-                "slot_id": "adscripciones",
-                "text": "Requisitos para postularme",
-                "id": "requisitos"
-            },
-            {
-                "slot_id": "adscripciones",
-                "text": "Quiero postularme a una adscripción",
-                "id": "reglamento"
-            }
-        ]
-    },
-    "convocatorias": {
-        "slot_text": "Hacé click  👉 <a href=\"http://mate.filo.uba.ar/content/convocatoria-adscripciones\"> acá </a> para conocer las convocatorias.",
-        "slot_options": []
-    },
-    "reglamento": {
-        "slot_text": "Hacé click en 👉  <a href=\"http://mate.filo.uba.ar/FAQ_adscripciones/\">este enlace</a> para leer el reglamento de adscripciones.",
-        "slot_options": []
-    },
-    "requisitos": {
-        "slot_text": "Hacé click en 👉 <a href= \"http://mate.filo.uba.ar/content/resoluci%C3%B3n-sobre-adscripciones\"> este enlace</a> para saber cómo postularte. ",
-        "slot_options": []
-    },
-    "horarios": {
-        "slot_text": "Para conocer los horarios de una materia o seminario del segundo cuatrimestre de 2021, hacé click 👉  <a href=\"http://mate.filo.uba.ar/sites/mate.filo.uba.ar/files/documentos/PLANILLA%20HORARIOS%20PARA%20ESTUDIANTES%202C%202021%20%285-07-21%29.pdf\">acá</a>.",
-        "slot_options": []
-    },
-    "correlativas": {
-        "slot_text": "¿Quién no ha tenido esta duda alguna vez? Ingresá uno de las siguientes opciones para poder ayudarte:",
-        "slot_options": [
-            {
-                "slot_id": "correlativas",
-                "text": "¿Qué correlatividades hay en la carrera de mate?",
-                "id": "carrera"
-            },
-            {
-                "slot_id": "correlativas",
-                "text": "¿Gramática es correlativa de Lingüística?",
-                "id": "gramatica"
-            },
-            {
-                "slot_id": "correlativas",
-                "text": "¿Teoría y Análisis Literario es correlativa del resto de las materias? ",
-                "id": "teoria"
-            }
-        ]
-    },
-    "carrera": {
-        "slot_text": "Para conocer sobre las correlatividades de la carrera, hacé click  <a href=\"http://mate.filo.uba.ar/plan-de-estudios-versi%C3%B3n-antigua#corre1\">acá</a>.",
-        "slot_options": []
-    },
-    "gramatica": {
-        "slot_text": "Para rendir Lingüística, es necesario haber cursado Gramática.",
-        "slot_options": []
-    },
-    "teoria": {
-        "slot_text": "Para rendir alguna Literatura, es necesario haber cursado Teoría y Análisis Literario.",
-        "slot_options": []
-    },
-    "tramites": {
-        "slot_text": "¡No desesperes! Puedo ayudarte con estos trámites.  Ingresá una opción del menú para seguir. ",
-        "slot_options": [
-            {
-                "slot_id": "tramites",
-                "text": "Certificado de alumno regular",
-                "id": "alumno_regular"
-            },
-            {
-                "slot_id": "tramites",
-                "text": "Certificado de examen",
-                "id": "certificado_examen"
-            },
-            {
-                "slot_id": "tramites",
-                "text": "Equivalencia y/o reconocimiento de asignaturas de otra carrera",
-                "id": "equivalencia"
-            },
-            {
-                "slot_id": "tramites",
-                "text": "Otros trámites",
-                "id": "otros_tramites"
-            }
-        ]
-    },
-    "alumno_regular": {
-        "slot_text": "Los certificados de alumno regular se tramitan a través de <a href=\"http://suiga.filo.uba.ar/inicial.php\">SUIGA</a>.  Hacé click 👉  <a href= \"http://academica.filo.uba.ar/certificado-de-alumno-regular\">acá</a> para saber los pasos a seguir.",
-        "slot_options": []
-    },
-    "certificado_examen": {
-        "slot_text": "Para solicitar un certificado de examen \\(parcial o final\\) tenés que escribir a la Dirección de Profesores \n👉   <a href= \"mailto:direcciondeprofesores@filo.uba.ar\">direcciondeprofesores@filo.uba.ar</a> con los siguientes datos: \n\n- Apellido y Nombre Completo, \n- Nº de DNI \n- Carrera \n- Materia por la cual solicita el certificado \n- Fecha en que tuvo lugar el examen parcial/final.\n\nHacé click para saber los pasos a seguir si rendiste un 👉  <a href=\"http://academica.filo.uba.ar/certificado-de-examen-parcial\">parcial</a>  o si rendiste un 👉  <a href=\"http://academica.filo.uba.ar/certificado-de-examen-final\">final</a>.  \n\n",
-        "slot_options": []
-    },
-    "equivalencia": {
-        "slot_text": "Hacé click <a href= \"http://academica.filo.uba.ar/equivalencia-yo-reconocimiento-de-asignaturas\">acá</a>. para saber cómo hacer tu trámite de equivalencia y/o reconocimiento de asignaturas de otra carrera. ",
-        "slot_options": []
-    },
-    "otros_tramites": {
-        "slot_text": "Si querés consultar por otros trámites, hacé click <a href=\"http://academica.filo.uba.ar/tramites-distancia-estudiantes\">acá</a> para ver la lista completa. ",
-        "slot_options": []
-    },
-    "wikimate": {
-        "slot_text": "Wikimate es una herramienta de consulta para estudiantes, graduados e investigadores. En el año 2019, Wikimate surge a partir de la iniciativa del Departamento de mate de la Universidad de Buenos Aires con el objetivo de reunir información actualizada y relevante para la tarea académica en el marco del proyecto departamental \"Archivo de publicaciones y proyectos de investigación en curso\". Actualmente, esta herramienta ofrece información sobre proyectos de investigación y extensión iniciados a partir de 2014 en la Argentina, proyectos departamentales e institutos de investigación de la Universidad de Buenos Aires y revistas y publicaciones especializadas vigentes de este país, Brasil, Chile y España.\n\nEntrá 👉  <a href=\"http://wikimate.com.ar/\">Wikimate</a>",
-        "slot_options": []
-    },
-    "otros": {
-        "slot_text": "Si no pudiste resolver tu consulta, escribí a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>.",
-        "slot_options": []
-    },
-    "canal_novedades": {
-        "slot_text": "Hacé click <a href=\"https://t.me/Novedadesmate\">acá </a>para unirte a nuestro canal y recibir las últimas novedades. ",
-        "slot_options": []
-    },
-    "lista_email": {
-        "slot_text": "Si querés sumarte a las listas de correo del Departamento, solicitalo a <a href=\"mailto:UNLA_Mate@gmail.com\">UNLA_Mate@gmail.com</a>.\n",
-        "slot_options": []
-    },
-    "novedades": {
-        "slot_text": "Opciones para recibir novedades",
-        "slot_options": [
-            {
-                "slot_id": "novedades",
-                "text": "Quiero unirme al canal de Telegram.",
-                "id": "canal_novedades"
-            },
-            {
-                "slot_id": "novedades",
-                "text": "Quiero subscribirme a la lista de email.",
-                "id": "lista_email"
-            }
-        ]
-    },
-    "promedio_historico": {
-        "slot_text": "Ingresá una de las siguientes opciones para seguir:",
-        "slot_options": [
-            {
-                "slot_id": "promedio_historico",
-                "text": "Quiero conocer el promedio histórico de mate.",
-                "id": "promedio_mate"
-            },
-            {
-                "slot_id": "promedio_historico",
-                "text": "Quiero tramitar un certificado de promedio histórico. ",
-                "id": "promedio_certificado"
-            },
-            {
-                "slot_id": "promedio_historico",
-                "text": "Tengo dudas sobre el promedio histórico.",
-                "id": "promedio_dudas"
-            }
-        ]
-    },
-    "promedio_mate": {
-        "slot_text": "El promedio histórico de la carrera de mate es 8,07.\n\n",
-        "slot_options": []
-    },
-    "promedio_certificado": {
-        "slot_text": "Para tramitar un certificado de promedio histórico, hacé click acá.",
-        "slot_options": []
-    },
-    "promedio_sirve": {
-        "slot_text": "Esta información puede ser solicitada en concursos, convocatorias a becas, entre otros.",
-        "slot_options": []
-    },
-    "promedio_mismo": {
-        "slot_text": "No, es el mismo.",
-        "slot_options": []
-    },
-    "promedio_dudas": {
-        "slot_text": "¿Tenés dudas sobre el promedio histórico?",
-        "slot_options": [
-            {
-                "slot_id": "promedio_dudas",
-                "text": "¿Para qué me sirve saber el promedio histórico?",
-                "id": "promedio_sirve"
-            },
-            {
-                "slot_id": "promedio_dudas",
-                "text": "¿Hay diferencia entre el del profesorado y la licenciatura?",
-                "id": "promedio_mismo"
+                "text": "¿Cómo me inscribo?",
+                "id": "07c829bd-dbc0-455d-b860-efd921d9a57b"
             }
         ]
     }

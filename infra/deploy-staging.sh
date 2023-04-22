@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "cleaning env.."
-docker stop app ngrok > /dev/null
-docker rm app ngrok > /dev/null
+docker stop matebot ngrok > /dev/null
+docker rm matebot ngrok > /dev/null
 
 echo "loading env vars"
 export $(grep -v '^#' .env | xargs -0)

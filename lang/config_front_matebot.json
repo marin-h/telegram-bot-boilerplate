@@ -1,0 +1,128 @@
+{
+    "name": "start",
+    "children": [
+        {
+            "name": "Fechas importantes",
+            "text": "Usá la botonera para encontrar lo que buscás, o bien hacé click <a href=\"http://www.unla.edu.ar/documentos/Calendario_Academico_2023.pdf\">acá</a> para ver todo el calendario académico 2023.",
+            "children": [
+                {
+                    "name": "Fechas de inscripción a asignaturas de 2023",
+                    "text": "Primer cuatrimestre 👉 12/3/2023 al 14/3/2023\nSegundo cuatrimestre 👉 31/7/2023 al 1/8/2023 "
+                },
+                {
+                    "name": "Fechas de inscripción a exámenes de 2023",
+                    "text": "Primer turno 👉 26/4/2023 al 27/4/2023\nSegundo turno 👉3/7/2023 al 4/7/2023 \nTercer turno 👉18/9/2023 al 19/9/2023 \nCuarto turno 👉20/11/2023 al 21/11/2023 "
+                },
+                {
+                    "name": "Fechas de inicios de cuatrimestre de 2023",
+                    "text": "Primer cuatrimestre 👉 27/3/2023 al 1/7/2023\nSegundo cuatrimestre 👉 7/8/2023 l 11/11/2023"
+                }
+            ]
+        },
+        {
+            "name": "Trámites y equivalencias",
+            "text": "Conocé cómo obtener certificados y realizar trámites de equivalencias.",
+            "children": [
+                {
+                    "name": "Reincorporación",
+                    "text": "Los y las estudiantes que se encuentren registrados como Activo No Regular podrán solicitar la reincorporación a la Carrera.Si estás registrado como Activo Regular no debés hacer este trámite para inscribirte a materias, pudiendo regularizar tu situación una vez retomadas las actividades presenciales.\nSeguí estos cinco pasos para llevar a cabo el trámite.\n\n1. Ingresá al Sistema de Gestión Académica en internet <a href=\"http://alumnos.unla.edu.ar/Guarani3W_262/inicial.php\">SIU Guaraní3W</a>\n2. Hacé clic en 👉 Matrícula / Solicitud de Reincorporación\n3. Hacé clic en el botón 👉 Solicitar Reincorporación\n4. Seguí el estado del trámite desde el mismo Sistema de Gestión y revisá el correo electrónico donde recibirás novedades del trámite y, en los casos que corresponda, instrucciones para efectuar el pago electrónico de la tasa correspondiente al trámite.\n5. En caso de que la solicitud de reincorporación sea resuelta favorablemente, luego del periodo de inscripción a materias comunicarse con la Dirección de la Carrera para tramitar inscripción a cursadas."
+                },
+                {
+                    "name": "Certificados de estudios",
+                    "text": "Para solicitar un certificado analítico no verificado en actas completá el siguiente 👉 formulario y esperá el correo electrónico con el certificado digital o acordá un turno para retirarlo. \nPara solicitar un certificado analítico verificado en actas completá el siguiente 👉 formulario y esperá el correo electrónico con el certificado digital o acordá un turno para retirarlo.\nPodés acceder a la visualización de la historia académica en el Sistema de Gestión Académica SIU Guaraní, en Guarani3w - SIU - Alumnos: Matrícula / Historia Académica / Materias aprobadas."
+                },
+                {
+                    "name": "Certificado de estudiante regular",
+                    "text": "Para solicitar un certificado de estudiante regular completá el siguiente 👉 formulario.\nLa constancia será recibida en el correo electrónico declarado siempre que cumpla con los requisitos necesarios para su emisión."
+                },
+                {
+                    "name": "Constancia de exámenes",
+                    "text": "Podés solicitar un certificado de examen ante \nEl estudiante podrá solicitar un certificado de examen ante el Departamento de Planificación y Políticas Públicas. El departamento enviará a la Dirección de Gestión y Documentación Estudiantil los pedidos para verificar los datos consignados y emitirá las constancias correspondientes."
+                },
+                {
+                    "name": "Equivalencias",
+                    "text": "Seguí los siguientes pasos para tramitar tu equivalencia. \n\n1. Chequeá la documentación necesaria para tramitar una equivalencia en este 👉 enlace.\n2. Enviá tu documentación a equivalencias@unla.edu.ar para su revisión y posterior asignación de turno y habilitación para el pago de las tasas académicas correspondientes.\n3. Una vez asignado el turno el / la estudiante asistirá con la documentación original que será validada contra la documentación enviada."
+                },
+                {
+                    "name": "Certificación de programas",
+                    "text": "Para solicitar la certificación de programas de materias aprobadas, tenés que presentar ante la Dirección del Ciclo de Licenciatura en Tecnologías Digitales para la Educación la siguiente documentación:\n✅ Certificado de analítico verificado en actas. En caso de no contar con el certificado, se puede gestionar solicitud en este enlace.\n✅ Formulario completo. Descargalo en este enlace. Te recomendamos ingresar al Sistema de Gestión Académica en internet SIU Guarani3W para obtener código/s de las materias aprobadas y cursadas.\n✅ Comprobante de pago de la tasa correspondiente. Podés pagar desde el Sistema de Gestión Académica en internet (SIU Guaraní 3W). Si tenés dudas, podés acceder al instructivo.)\nUna vez emitida la certificación deberás contactarte a 👉 este correo correspondiente para coordinar entrega de la documentación correspondiente."
+                },
+                {
+                    "name": "Pago electrónico de carreras aranceladas",
+                    "text": "Para acceder al Módulo de Pagos, hacé click en este 👉 enlace. En caso de que tu E-Mail no se encuentre registrado en el Sistema de Pagos, acercate personalmente a Tesorería General o comunicarte con el asistente de tu carrera."
+                },
+                {
+                    "name": "Reglamento Académico",
+                    "text": "Hacé click en 👉 enlace para acceder al reglamento académico."
+                },
+                {
+                    "name": "",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "Estoy terminando el Ciclo de Licenciatura en Tecnologías Digitales para la Educación ",
+            "text": "Enterate de todo lo que tenés que saber si estás cerca de finalizar tu licenciatura.",
+            "children": [
+                {
+                    "name": "Cronograma de entrega de Diplomas",
+                    "text": "Hacé click en 👉 enlace para acceder a información actualizada del cronograma de entrega de diplomas. \n"
+                },
+                {
+                    "name": "Propuestas de posgrado",
+                    "text": "Hacé click en 👉 enlace para acceder a información actualizada sobre las propuestas de posgrado de la UNLA."
+                },
+                {
+                    "name": "Inicio de trámite de título",
+                    "text": "Una vez que hayas aprobado la totalidad de las asignaturas del Ciclo de Licenciatura, podés solicitar el inicio del trámite de expedición de Diploma siguiendo los siguientes pasos:\n1. Ingresá al Sistema de Gestión Académica en internet SIU Guaraní3W en 👉 este enlace.\n2. Hacé click en Matrícula / Solicitud de Título.\n3. Hacé click en el botón Solicitar Inicio de Trámite. Solo podrá efectuarse si se encuentra en condiciones de solicitar el título.\nEn caso que aparezcan como pendiente/s de aprobación materia/s de Idiomas y/o Informática y hayas aprobado (en condición de Libre) niveles superiores escribí a estudiantil@unla.edu.ar para gestionar reconocimiento de dichas asignaturas.\n4. Actualizá la información y completá el Formulario correspondiente.\n5. Descargá el Formulario (deberá ser subido posteriormente al Campus Virtual).\n6. Una vez finalizado el paso serás matriculado en un aula del campus virtual de la Universidad 👉 www.campus.unla.edu.ar\n7. Ahora ingresá al Campus y en el aula virtual (Inicio de solicitud de Diplomas) completá la tarea subiendo la totalidad de la documentación requerida 👉\n✅ Solicitud de Diploma (Descarga desde SIU Guaraní 3w)\n✅ DNI (Frente y Dorso).\n✅ Constancia de haber completado encuesta obligatoria de egresados (disponible en http://encuestas.unla.edu.ar)\n✅ Constancia de libre deuda de Biblioteca. (consultasbiblio@unla.edu.ar)\n✅ Plan de Estudios de la Carrera (se solicita en su carrera)\n✅ Título (Frente y Dorso)                                                                                                            \n✅ Certificado o constancia de carga horaria emitida por la institución de origen. \n✅ Libre deuda de tesorería. Podés solicitarlo solicitar a 👉 este correo lfernandez@unla.edu.ar"
+                },
+                {
+                    "name": "",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "Información sobre el Ciclo de Licenciatura en Tecnologías Digitales para la Educación",
+            "text": "",
+            "children": [
+                {
+                    "name": "¿Qué se estudia en el Ciclo?",
+                    "text": "Durante esta carrera a distancias, aprenderás sobre los nuevos escenarios educativos a partir de la utilización de tecnologías digitales; conocerás aplicaciones libres destinadas a la enseñanza y el aprendizaje; y trabajarás en distintas propuestas pedagógicas que involucren activamente a sus estudiantes. Accedé a más información en este 👉 enlace. "
+                },
+                {
+                    "name": "Perfil del egresado",
+                    "text": "✅ Diseñar, desarrollar y evaluar programas y proyectos interdisciplinarios de formación para todos los niveles educativos a partir de la incorporación de tecnologías digitales.\n✅ Analizar y diseñar políticas públicas y acciones privadas que involucren la inclusión de tecnologías digitales para la educación.\n✅ Desempeñarte como referente tecnológico en diversas configuraciones que involucran tecnologías digitales para educación.\n✅ Participar en tareas de supervisión, asesoramiento y evaluación relacionadas a la utilización de tecnologías digitales con fines educativos.\n✅ Desempeñarte en el desarrollo de proyectos de inclusión de Tecnologías digitales en instituciones escolares y otras organizaciones afines, vinculadas a la producción y distribución de software educativo u otros contenidos educativos digitales.\n✅ Asesorar y organizar programas de capacitación y/o extracurriculares en el área de tecnologías digitales relacionadas con la educación."
+                },
+                {
+                    "name": "Plan de estudios",
+                    "text": "Accedé al plan de estudios haciendo click en en este 👉 enlace. "
+                },
+                {
+                    "name": "¿Qué necesito para ingresar?",
+                    "text": "Para ingresar necesitás título de docente en distintas disciplinas; ser técnico en informática, diseño web, multimedia y/o disciplinas relacionadas; o ser egresado en Sistemas (u otras titulaciones universitarias en el mismo campo: licenciados en Sistemas, Ingenieros, Programadores). En todos los casos las formaciones requeridas no pueden acreditar menos de 2 años de duración y 1400 horas de carga horaria."
+                },
+                {
+                    "name": "",
+                    "text": ""
+                }
+            ]
+        },
+        {
+            "name": "Inscripciones a la carrera",
+            "text": "",
+            "children": [
+                {
+                    "name": "Fechas de inscripción",
+                    "text": "Seguí las redes sociales de la Universidad para conocer las fechas de inscripción. \n\nInstagram\n@academicaunlaoficial\nFacebook:\nAcademica UNLa Oficial"
+                }
+            ]
+        },
+        {
+            "name": "¿Cómo me inscribo?",
+            "text": "\n1. Ingresá a: http://preinscripcion.unla.edu.ar\n2. Generá tu identificación de usuario e ingresá al sistema de preinscripción a carrera seleccionando “ciclo de licenciatura”.\n3. Completá el formulario de preinscripción y adjuntá la documentación requerida para la carrera seleccionada. \n✅  DNI(ambos lados)\n✅  Título que habilite el ingreso a la carrera conforme condiciones de ingreso según Plan de Estudios (ambos lados)\n✅ Carga horaria del título presentado\n✅ Foto\nUna vez validada la documentación te convocaremos para que presentes la documentación original en la Dirección de Gestión y Documentación Estudiantil y realices el pago de la matrícula correspondiente."
+        }
+    ],
+    "text": "¡Hola! Mi nombre es Mate Bot y puedo ayudarte con dudas o preguntas sobre las carreras de educación a distancia de la UNLA."
+}
