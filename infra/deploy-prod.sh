@@ -2,7 +2,7 @@
 
  echo ""
 echo "loading env vars"
-export $(grep -v '^#' .secrets | xargs -0)
+export $(grep -v '^#' .env | xargs -0)
 
 echo "Deploying bot to GCR"
 echo 

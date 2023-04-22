@@ -37,8 +37,8 @@ this file is then added to the container
 
 ## Deploy
 
-### Setting up .secrets config file:
-* Add your TOKEN and TEST_TOKEN (optional) for telegram-bot authentication
+### Setting up .env config file:
+* Add your TOKEN, NGROK_AUTHTOKEN and TEST_TOKEN (optional) for telegram-bot authentication
 * PORT (We use 8888 for Mac and 80 for Linux)
 
 ### Production environment

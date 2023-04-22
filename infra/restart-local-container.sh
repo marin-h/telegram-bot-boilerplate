@@ -3,7 +3,7 @@
 echo ""
 echo "loading env vars"
 set -a
-source <(cat .secrets | \
+source <(cat .env | \
     sed -e '/^#/d;/^\s*\$/d' -e "s/'/'\\\''/g" -e "s/=\(.*\)/='\1'/g")
 set +a
 
@@ -16,4 +16,4 @@ docker build -t mate-bot .
 
 echo ""
 echo "running container"
-docker run --env-file=".secrets" -e "TOKEN=${TEST_TOKEN}" -e "PORT=80" -p 80:80 mate-bot &
+docker run --env-file=".env" -e "TOKEN=${TEST_TOKEN}" -e "PORT=80" -p 80:80 mate-bot &
