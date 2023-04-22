@@ -3,3 +3,6 @@ staging:
 
 deploy:
 	./infra/deploy-prod.sh 
+
+restart:
+	./infra/restart-local.sh
